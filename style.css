@@ -1,0 +1,299 @@
+body{
+    /* box-sizing: border-box; */
+    /* margin: 0px; */
+    /* padding: 0px; */
+    background-color: rgb(221, 209, 199);
+}
+.main {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30em;
+   padding: 30px 200px;
+
+}
+.silva{
+   text-align: center;
+}
+
+.silva2{
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+    }
+    .navbar a{
+   color: black;
+      
+      
+      
+      }
+.logo2{
+    text-align: center;
+    padding-top: 30px;
+   
+}
+ .text1 {
+    text-align: center;
+    color: rgb(105, 81, 81);
+    /* background-color: white; */
+    /* width : 700px; */
+ }
+    
+
+ .header{ 
+    text-align: right;
+    padding-bottom: 10em;
+    flex-wrap: wrap;
+    color: aliceblue;
+
+ }
+
+ 
+ .header2 {
+    color: aliceblue;
+
+ }
+ .wrap{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+ }
+
+ .wrap1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+ }
+
+ .header3:hover {
+   background-color: black;
+ }
+ .header4:hover {
+   background-color: rgba(222, 212, 205, 0.585);
+ }
+ .header5:hover {
+   background-color: rgba(6, 4, 3, 0.585);
+ }
+ .header3 {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(26, 148, 148);
+    border-radius: 10px;
+    width: 23%;
+    height: 340px;
+    padding-top: 20px;
+
+ }
+
+ .header4 {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(49, 49, 185);
+    border-radius: 10px;
+    width: 23%;
+    height: 330px;
+    padding-top: 20pt;
+
+
+ }
+ .header
+ 
+ .icon {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin: 20px 0 0 50px; 
+ }
+
+ .icon2{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30em;
+   padding:  100px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+   /* flex-direction: row; */
+   /* justify-content: flex-start; */
+   /* align-items: flex-start; */
+   /* margin: 60px; */
+   /* gap: 37%; */
+   
+ }
+ .icon3{
+   width: 350px;
+
+ }
+
+ .icon4{
+   width: 30px;
+   /* display: flex; */
+   flex-direction: row;
+   justify-content: flex-start;
+   margin: 30px;
+   gap: 37%;
+
+ }
+ 
+
+ .back1{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(206, 243, 243);
+   background-image: url('./sygnet@2x.png');
+   /* flex-direction: row; */
+   background-repeat: no-repeat;
+   background-position: left bottom;
+   background-size: 30%;
+   /* gap: 300px; */
+ }
+ .sep1{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   gap: 10px;
+  }
+
+ 
+  .headerex{
+   text-align: center;
+   padding: 1em;
+   
+   color:green;
+   background-color: white;
+   border-radius: 10px;
+   margin-top: 20px;
+
+ }
+ .headerex2{
+   display: flex;
+    gap: 20px;
+    justify-content: center;
+   padding-top: 20px;
+
+ }
+
+ .country{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .imgsize{
+   width: 100%;
+   height: 300px;
+ }
+ 
+ 
+ .top-space{
+   margin-top: 30px;
+  }
+.bot-space{
+   margin-bottom: 20px;
+}
+
+
+ .header5 {
+    text-align: center;
+    color: aliceblue;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    width: 23%;
+    height: 340px;
+    padding-top: 20px;
+ }
+  .we{
+   color:rgb(4, 107, 102);
+   /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+   padding-left: 95px;
+}
+
+  
+  .a {
+    color: aliceblue;
+    display: block;
+    /* padding: 20px; */
+    background-color: #242424;
+    
+  }
+
+  .select{
+      background-color: transparent;
+      border: 0;
+      outline: none;
+      color: #fff;
+      font-size: 1em;
+      text-decoration: underline;
+  }
+
+  .select2{
+   flex-direction: column;
+   background-color: transparent;
+   border: 0;
+   outline: none;
+   color: #fff;
+   font-size: 1em;
+   text-decoration: underline;
+}
+.select3{
+   background-color: blue;
+   color: white;
+   padding: 5px;
+   border-radius: 5px;
+   color: aliceblue;
+}
+.select4{
+   background-color: blue;
+   padding: 10px;
+   border-radius: 5px;
+   color: aliceblue;
+   
+
+}
+.select4:hover{
+   background-color: rgb(55, 55, 109);
+   
+
+}
+  .option{
+   color: black;
+  } 
+
+  footer{
+   background-color: black;
+   width: 100%;
+   height: 100px;
+   display: flex;
+   text-align: center;
+   /* margin-left: 50px; */
+   
+  }
+  .ft1{
+   color: aliceblue;
+   /* text-align: center; */
+   margin-left: 220px;
+  }
+  span{
+   color: rgb(236, 229, 229);
+  }
+
+ 
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
